@@ -248,3 +248,12 @@ img {
 .curso__descripcion {
     margin-bottom: 0;
 }
+
+/* Contacto */
+
+.contacto__bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
