@@ -73,3 +73,37 @@ img {
     text-align: center;
     margin-top: 5rem;
 }
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__texto {
+        margin-top: 16rem
+    }
+}
+
+.logo__nombre {
+    color: var(--blanco);
+    font-weight: normal;
+}
+
+.logo__bold {
+    font-weight: bold;
+}
+
+.navegacion__enlace {
+    display: block;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
