@@ -3,6 +3,7 @@
     --fuenteParrafos: 'Open Sans', sans-serif;
 
     --primario: #784D3C;
+    --gris: #e1e1e1;
     --blanco: #ffffff;
     --negro: #000;
 }
@@ -116,3 +117,34 @@ img {
     }
 }
 
+.entrada {
+    border-bottom: 1px solid var(--gris);   
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+    border: none;
+    margin: 0;
+}
+
+.boton {
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    font-family: var(--fuenteHeading);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.boton--primario {
+    background-color: var(--negro);
+}
+
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+    }
+}
